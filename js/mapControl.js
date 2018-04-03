@@ -107,7 +107,7 @@
      } else {
          tailPeriod = "P" + tailPeriod;
      }
-     map.timeDimension.options.period = "PT" + period.toString() + "H";
+     map.timeDimension.options.period = "PT" + period;
      var file = fileInput.files[0];
      var fileExtention = file.name.substr(file.name.length - 3);
      console.log(fileExtention);
