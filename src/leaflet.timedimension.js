@@ -68,14 +68,14 @@ L.TimeDimension = (L.Layer || L.Class).extend({
         }
         this._loadingTimeIndex = newIndex;
         var newTime = this._availableTimes[newIndex];
-        console.log('INIT -- Current time: ' + new Date(newTime).toISOString());
+        // console.log('INIT -- Current time: ' + new Date(newTime).toISOString());
 		var d = new Date(newTime).toString();
-		console.log(d);
+		// console.log(d);
 		var mon = d.substring(4,7);
 		var yr = d.substring(11,15);
         var full = d.substring(4,15);
-		console.log("mon",mon);
-		console.log("yr",yr);
+		// console.log("mon",mon);
+		// console.log("yr",yr);
 		//$('#dateDisp').text(d.substring(0,7));
 		//$('#dateDisp').text(mon + " " + yr);
         $('#dateDisp').text(full);
@@ -101,7 +101,7 @@ L.TimeDimension = (L.Layer || L.Class).extend({
             return;
         }
         var time = this._availableTimes[this._loadingTimeIndex];
-        console.log('END -- Current time: ' + new Date(time).toISOString());
+        // console.log('END -- Current time: ' + new Date(time).toISOString());
         this._currentTimeIndex = this._loadingTimeIndex;
         this.fire('timeload', {
             time: time
