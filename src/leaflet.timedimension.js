@@ -69,15 +69,15 @@ L.TimeDimension = (L.Layer || L.Class).extend({
         this._loadingTimeIndex = newIndex;
         var newTime = this._availableTimes[newIndex];
         // console.log('INIT -- Current time: ' + new Date(newTime).toISOString());
-		var d = new Date(newTime).toString();
-		// console.log(d);
-		var mon = d.substring(4,7);
-		var yr = d.substring(11,15);
-        var full = d.substring(4,15);
-		// console.log("mon",mon);
-		// console.log("yr",yr);
-		//$('#dateDisp').text(d.substring(0,7));
-		//$('#dateDisp').text(mon + " " + yr);
+        var d = new Date(newTime).toString();
+        // console.log(d);
+        var mon = d.substring(4, 7);
+        var yr = d.substring(11, 15);
+        var full = d.substring(4, 15);
+        // console.log("mon",mon);
+        // console.log("yr",yr);
+        //$('#dateDisp').text(d.substring(0,7));
+        //$('#dateDisp').text(mon + " " + yr);
         $('#dateDisp').text(full);
         if (this._checkSyncedLayersReady(this._availableTimes[this._loadingTimeIndex])) {
             this._newTimeIndexLoaded();
@@ -249,7 +249,7 @@ L.TimeDimension = (L.Layer || L.Class).extend({
     },
 
     previousTime: function (numSteps, loop) {
-        this.nextTime(numSteps*(-1), loop);
+        this.nextTime(numSteps * (-1), loop);
     },
 
     registerSyncedLayer: function (layer) {
@@ -259,14 +259,14 @@ L.TimeDimension = (L.Layer || L.Class).extend({
 
     unregisterSyncedLayer: function (layer) {
         var index = this._syncedLayers.indexOf(layer);
-        if (index != -1) {
+        if (index !== -1) {
             this._syncedLayers.splice(index, 1);
         }
         layer.off('timeload', this._onSyncedLayerLoaded, this);
     },
 
     _onSyncedLayerLoaded: function (e) {
-        if (e.time == this._availableTimes[this._loadingTimeIndex] && this._checkSyncedLayersReady(e.time)) {
+        if (e.time === this._availableTimes[this._loadingTimeIndex] && this._checkSyncedLayersReady(e.time)) {
             this._newTimeIndexLoaded();
         }
     },
@@ -305,22 +305,23 @@ L.TimeDimension = (L.Layer || L.Class).extend({
     },
 
     setAvailableTimes: function (times, mode) {
+        console.log("THIS", this);
         var currentTime = this.getCurrentTime(),
             lowerLimitTime = this.getLowerLimit(),
             upperLimitTime = this.getUpperLimit();
 
-        if (mode == 'extremes') {
+        if (mode === 'extremes') {
             var period = this.options.period || 'P1D';
             this._availableTimes = L.TimeDimension.Util.explodeTimeRange(new Date(times[0]), new Date(times[times.length - 1]), period);
         } else {
             var parsedTimes = L.TimeDimension.Util.parseTimesExpression(times);
             if (this._availableTimes.length === 0) {
                 this._availableTimes = parsedTimes;
-            } else if (mode == 'intersect') {
+            } else if (mode === 'intersect') {
                 this._availableTimes = L.TimeDimension.Util.intersect_arrays(parsedTimes, this._availableTimes);
-            } else if (mode == 'union') {
+            } else if (mode === 'union') {
                 this._availableTimes = L.TimeDimension.Util.union_arrays(parsedTimes, this._availableTimes);
-            } else if (mode == 'replace') {
+            } else if (mode === 'replace') {
                 this._availableTimes = parsedTimes;
             } else {
                 throw 'Merge available times mode not implemented: ' + mode;

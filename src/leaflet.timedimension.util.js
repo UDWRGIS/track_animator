@@ -66,6 +66,7 @@ L.TimeDimension.Util = {
     },
 
     explodeTimeRange: function(startTime, endTime, ISODuration, validTimeRange) {
+        console.log(startTime,endTime,ISODuration,validTimeRange);
         var duration = this.getTimeDuration(ISODuration);
         var result = [];
         var currentTime = new Date(startTime.getTime());

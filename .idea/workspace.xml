@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f67c7ade-e3aa-44d3-b411-548f56588e27" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/baselayers.js" afterPath="$PROJECT_DIR$/js/baselayers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/mapControl.js" afterPath="$PROJECT_DIR$/js/mapControl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/leaflet.timedimension.js" afterPath="$PROJECT_DIR$/src/leaflet.timedimension.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/leaflet.timedimension.util.js" afterPath="$PROJECT_DIR$/src/leaflet.timedimension.util.js" />
     </list>
     <ignored path="deer_migrations.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +31,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="77" column="78" lean-forward="true" selection-start-line="77" selection-start-column="78" selection-end-line="77" selection-end-column="78" />
+            <state relative-caret-position="399">
+              <caret line="83" column="59" lean-forward="true" selection-start-line="83" selection-start-column="59" selection-end-line="83" selection-end-column="59" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -40,8 +44,8 @@
       <file leaf-file-name="easy_currents_track.kml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../../Data/MigrationGPX/easy_currents_track.kml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="148155">
+              <caret line="8715" column="51" lean-forward="false" selection-start-line="8715" selection-start-column="51" selection-end-line="8715" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -50,8 +54,38 @@
       <file leaf-file-name="mapControl.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/mapControl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="107" column="39" lean-forward="true" selection-start-line="107" selection-start-column="39" selection-end-line="107" selection-end-column="39" />
+            <state relative-caret-position="1734">
+              <caret line="102" column="28" lean-forward="false" selection-start-line="102" selection-start-column="21" selection-end-line="102" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="baselayers.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/baselayers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+              <folding>
+                <marker date="1526422852743" expanded="true" signature="337:344" ph="—" />
+                <marker date="1526422852743" expanded="true" signature="354:360" ph="©" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deer.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/deer.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="35872.gpx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/35872.gpx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -60,18 +94,40 @@
       <file leaf-file-name="leaflet.timedimension.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leaflet.timedimension.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="715">
-              <caret line="78" column="25" lean-forward="false" selection-start-line="78" selection-start-column="25" selection-end-line="78" selection-end-column="25" />
+            <state relative-caret-position="102">
+              <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.gpx" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/test.gpx">
+      <file leaf-file-name="2018_01_03_08_55_17.gpx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../Data/MigrationGPX/2018_01_03_08_55_17.gpx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1666">
-              <caret line="1" column="27954" lean-forward="false" selection-start-line="1" selection-start-column="27935" selection-end-line="1" selection-end-column="27954" />
+            <state relative-caret-position="544">
+              <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="leaflet.timedimension.player.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leaflet.timedimension.player.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.gpx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../Data/MigrationGPX/ski/test.gpx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="58146" lean-forward="false" selection-start-line="0" selection-start-column="58146" selection-end-line="0" selection-end-column="58146" />
               <folding />
             </state>
           </provider>
@@ -81,20 +137,40 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.00000Z</find>
-      <find>img</find>
-      <find>160px</find>
-      <find>150px</find>
-      <find>dateDisp</find>
-      <find>e</find>
-      <find>end</find>
-      <find>end -</find>
-      <find>end --</find>
-      <find>INIT --</find>
+      <find>tim</find>
+      <find>ti</find>
+      <find>da</find>
+      <find>2018-03-05</find>
+      <find>d</find>
+      <find>dateDis</find>
       <find>jquery</find>
+      <find>trk</find>
+      <find>dateDisp</find>
+      <find>explode</find>
+      <find>getTimeDuration</find>
+      <find>60</find>
+      <find>60X</find>
+      <find>60x</find>
+      <find>duration</find>
+      <find>4</find>
+      <find>false</find>
+      <find>ma</find>
+      <find>maxSpee</find>
+      <find>maxSpeed</find>
+      <find>speed</find>
+      <find>tailPeriod</find>
+      <find>timeInterval</find>
+      <find>moose</find>
+      <find>defaul</find>
+      <find>window</find>
+      <find>modal</find>
+      <find>deer</find>
+      <find>esri</find>
+      <find>window.</find>
     </findStrings>
     <replaceStrings>
       <replace />
+      <replace>2018-01-01</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -104,9 +180,21 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$USER_HOME$/Desktop/test.gpx" />
+        <option value="$PROJECT_DIR$/../../../Data/MigrationGPX/ski/2018_02_15_09_48_19.gpx" />
+        <option value="$PROJECT_DIR$/../../../Data/MigrationGPX/ski/2018_02_16_08_55_58.gpx" />
+        <option value="$PROJECT_DIR$/../../../Data/MigrationGPX/ski/2018_02_19_11_54_41.gpx" />
+        <option value="$PROJECT_DIR$/../../../Data/MigrationGPX/ski/2018_02_25_08_46_45.gpx" />
+        <option value="$PROJECT_DIR$/../../../Data/MigrationGPX/ski/2018_03_05_09_08_22.gpx" />
+        <option value="$PROJECT_DIR$/../../../Data/MigrationGPX/ski/2018_02_11_08_48_41.gpx" />
+        <option value="$PROJECT_DIR$/../migrations/data/Elk_WasatchCurrantCreek.gpx" />
+        <option value="$PROJECT_DIR$/src/leaflet.timedimension.util.js" />
+        <option value="$PROJECT_DIR$/src/leaflet.timedimension.control.js" />
+        <option value="$PROJECT_DIR$/../../../Data/MigrationGPX/ski/test.gpx" />
         <option value="$PROJECT_DIR$/src/leaflet.timedimension.js" />
+        <option value="$PROJECT_DIR$/../../../Data/MigrationGPX/2018_01_03_08_55_17.gpx" />
         <option value="$PROJECT_DIR$/js/mapControl.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/baselayers.js" />
       </list>
     </option>
   </component>
@@ -138,7 +226,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -165,17 +253,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GPX_Animator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GPX_Animator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../dev" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\sam\Code\GIT_MAIN\GPX_Animator\data" />
+      <recent name="C:\sam\Data\MigrationGPX\ski" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -426,16 +534,15 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1380597" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14818764" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -444,6 +551,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -458,6 +566,169 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/leaflet.timedimension.player.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leaflet.timedimension.control.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2227">
+          <caret line="131" column="23" lean-forward="false" selection-start-line="131" selection-start-column="18" selection-end-line="131" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Data/MigrationGPX/ski/test.gpx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="58146" lean-forward="false" selection-start-line="0" selection-start-column="58146" selection-end-line="0" selection-end-column="58146" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../migrations/data/Elk_WasatchCurrantCreek.gpx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="829617">
+          <caret line="48801" column="6" lean-forward="true" selection-start-line="48801" selection-start-column="6" selection-end-line="48801" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/mapControl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1683">
+          <caret line="99" column="14" lean-forward="true" selection-start-line="99" selection-start-column="14" selection-end-line="99" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="90" column="79" lean-forward="true" selection-start-line="90" selection-start-column="79" selection-end-line="90" selection-end-column="79" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Data/MigrationGPX/easy_currents_track.kml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148155">
+          <caret line="8715" column="51" lean-forward="false" selection-start-line="8715" selection-start-column="51" selection-end-line="8715" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/baselayers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leaflet.timedimension.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5389">
+          <caret line="317" column="52" lean-forward="true" selection-start-line="317" selection-start-column="52" selection-end-line="317" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leaflet.timedimension.util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leaflet.timedimension.player.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leaflet.timedimension.control.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2227">
+          <caret line="131" column="23" lean-forward="false" selection-start-line="131" selection-start-column="18" selection-end-line="131" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Data/MigrationGPX/ski/test.gpx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="58146" lean-forward="false" selection-start-line="0" selection-start-column="58146" selection-end-line="0" selection-end-column="58146" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../migrations/data/Elk_WasatchCurrantCreek.gpx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="829617">
+          <caret line="48801" column="6" lean-forward="true" selection-start-line="48801" selection-start-column="6" selection-end-line="48801" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/mapControl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2720">
+          <caret line="160" column="40" lean-forward="false" selection-start-line="160" selection-start-column="35" selection-end-line="160" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="62" column="21" lean-forward="false" selection-start-line="60" selection-start-column="8" selection-end-line="62" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Data/MigrationGPX/easy_currents_track.kml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148155">
+          <caret line="8715" column="51" lean-forward="false" selection-start-line="8715" selection-start-column="51" selection-end-line="8715" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/mapControl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="77" column="44" lean-forward="false" selection-start-line="77" selection-start-column="44" selection-end-line="77" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Data/MigrationGPX/ski/2018_03_05_09_08_22.gpx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58922">
+          <caret line="3466" column="92" lean-forward="false" selection-start-line="3466" selection-start-column="92" selection-end-line="3466" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leaflet.timedimension.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1394">
+          <caret line="82" column="39" lean-forward="false" selection-start-line="82" selection-start-column="39" selection-end-line="82" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
@@ -473,7 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="27954" lean-forward="false" selection-start-line="1" selection-start-column="27935" selection-end-line="1" selection-end-column="27954" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -551,11 +821,92 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1666">
           <caret line="1" column="27954" lean-forward="false" selection-start-line="1" selection-start-column="27935" selection-end-line="1" selection-end-column="27954" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Data/MigrationGPX/ski/2018_02_15_09_48_19.gpx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="724">
+          <caret line="2506" column="6" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="2506" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Data/MigrationGPX/ski/2018_02_16_08_55_58.gpx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="2446" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Data/MigrationGPX/ski/2018_02_19_11_54_41.gpx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="724">
+          <caret line="1639" column="6" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="1639" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Data/MigrationGPX/ski/2018_02_25_08_46_45.gpx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="724">
+          <caret line="2194" column="6" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="2194" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Data/MigrationGPX/ski/2018_02_11_08_48_41.gpx" />
+    <entry file="file://$PROJECT_DIR$/../../../Data/takeout-20180404T232010Z-001/Takeout/Location History/Location History.kml" />
+    <entry file="file://$PROJECT_DIR$/../../../Data/MigrationGPX/ski/2018_03_05_09_08_22.gpx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../migrations/data/Elk_WasatchCurrantCreek.gpx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="829617">
+          <caret line="48801" column="6" lean-forward="false" selection-start-line="48801" selection-start-column="6" selection-end-line="48801" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leaflet.timedimension.util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leaflet.timedimension.control.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2227">
+          <caret line="131" column="23" lean-forward="false" selection-start-line="131" selection-start-column="18" selection-end-line="131" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../Data/MigrationGPX/easy_currents_track.kml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148155">
+          <caret line="8715" column="51" lean-forward="false" selection-start-line="8715" selection-start-column="51" selection-end-line="8715" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Data/MigrationGPX/ski/test.gpx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="58146" lean-forward="false" selection-start-line="0" selection-start-column="58146" selection-end-line="0" selection-end-column="58146" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Data/MigrationGPX/2018_01_03_08_55_17.gpx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/35872.gpx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -563,26 +914,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/img/deer.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/leaflet.timedimension.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="715">
-          <caret line="78" column="25" lean-forward="false" selection-start-line="78" selection-start-column="25" selection-end-line="78" selection-end-column="25" />
+        <state relative-caret-position="102">
+          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leaflet.timedimension.player.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/baselayers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <folding>
+            <marker date="1526422852743" expanded="true" signature="337:344" ph="—" />
+            <marker date="1526422852743" expanded="true" signature="354:360" ph="©" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/mapControl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="107" column="39" lean-forward="true" selection-start-line="107" selection-start-column="39" selection-end-line="107" selection-end-column="39" />
+        <state relative-caret-position="1734">
+          <caret line="102" column="28" lean-forward="false" selection-start-line="102" selection-start-column="21" selection-end-line="102" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="77" column="78" lean-forward="true" selection-start-line="77" selection-start-column="78" selection-end-line="77" selection-end-column="78" />
+        <state relative-caret-position="399">
+          <caret line="83" column="59" lean-forward="true" selection-start-line="83" selection-start-column="59" selection-end-line="83" selection-end-column="59" />
           <folding>
             <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
